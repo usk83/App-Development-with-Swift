@@ -15,7 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		4EBDF5FA2267823800734064 /* AutoLayoutStarter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AutoLayoutStarter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4EBDF5FA2267823800734064 /* AutoLayout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AutoLayout.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4EBDF5FD2267823800734064 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4EBDF5FF2267823800734064 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		4EBDF6022267823800734064 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -38,7 +38,7 @@
 		4EBDF5F12267823800734064 = {
 			isa = PBXGroup;
 			children = (
-				4EBDF5FC2267823800734064 /* AutoLayoutStarter */,
+				4EBDF5FC2267823800734064 /* AutoLayout */,
 				4EBDF5FB2267823800734064 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -46,12 +46,12 @@
 		4EBDF5FB2267823800734064 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4EBDF5FA2267823800734064 /* AutoLayoutStarter.app */,
+				4EBDF5FA2267823800734064 /* AutoLayout.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		4EBDF5FC2267823800734064 /* AutoLayoutStarter */ = {
+		4EBDF5FC2267823800734064 /* AutoLayout */ = {
 			isa = PBXGroup;
 			children = (
 				4EBDF5FD2267823800734064 /* AppDelegate.swift */,
@@ -61,15 +61,15 @@
 				4EBDF6062267823A00734064 /* LaunchScreen.storyboard */,
 				4EBDF6092267823A00734064 /* Info.plist */,
 			);
-			path = AutoLayoutStarter;
+			path = AutoLayout;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		4EBDF5F92267823800734064 /* AutoLayoutStarter */ = {
+		4EBDF5F92267823800734064 /* AutoLayout */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4EBDF60C2267823A00734064 /* Build configuration list for PBXNativeTarget "AutoLayoutStarter" */;
+			buildConfigurationList = 4EBDF60C2267823A00734064 /* Build configuration list for PBXNativeTarget "AutoLayout" */;
 			buildPhases = (
 				4EBDF5F62267823800734064 /* Sources */,
 				4EBDF5F72267823800734064 /* Frameworks */,
@@ -79,9 +79,9 @@
 			);
 			dependencies = (
 			);
-			name = AutoLayoutStarter;
-			productName = AutoLayoutStarter;
-			productReference = 4EBDF5FA2267823800734064 /* AutoLayoutStarter.app */;
+			name = AutoLayout;
+			productName = AutoLayout;
+			productReference = 4EBDF5FA2267823800734064 /* AutoLayout.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -101,7 +101,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 4EBDF5F52267823800734064 /* Build configuration list for PBXProject "AutoLayoutStarter" */;
+			buildConfigurationList = 4EBDF5F52267823800734064 /* Build configuration list for PBXProject "AutoLayout" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -114,7 +114,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				4EBDF5F92267823800734064 /* AutoLayoutStarter */,
+				4EBDF5F92267823800734064 /* AutoLayout */,
 			);
 		};
 /* End PBXProject section */
@@ -286,7 +286,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 95C25XPP49;
-				INFOPLIST_FILE = AutoLayoutStarter/Info.plist;
+				INFOPLIST_FILE = AutoLayout/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = io.github.usk83.AutoLayout;
@@ -302,7 +302,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 95C25XPP49;
-				INFOPLIST_FILE = AutoLayoutStarter/Info.plist;
+				INFOPLIST_FILE = AutoLayout/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = io.github.usk83.AutoLayout;
@@ -315,7 +315,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4EBDF5F52267823800734064 /* Build configuration list for PBXProject "AutoLayoutStarter" */ = {
+		4EBDF5F52267823800734064 /* Build configuration list for PBXProject "AutoLayout" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4EBDF60A2267823A00734064 /* Debug */,
@@ -324,7 +324,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4EBDF60C2267823A00734064 /* Build configuration list for PBXNativeTarget "AutoLayoutStarter" */ = {
+		4EBDF60C2267823A00734064 /* Build configuration list for PBXNativeTarget "AutoLayout" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4EBDF60D2267823A00734064 /* Debug */,

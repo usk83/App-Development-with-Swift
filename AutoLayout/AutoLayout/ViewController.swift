@@ -1,6 +1,6 @@
 //
 //  ViewController.swift
-//  AutoLayoutStarter
+//  AutoLayout
 //
 //  Created by Derrick Park on 2019-04-17.
 //  Copyright © 2019 Derrick Park. All rights reserved.
