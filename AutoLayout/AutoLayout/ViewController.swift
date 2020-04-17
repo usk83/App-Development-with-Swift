@@ -17,6 +17,52 @@ class ViewController: UIViewController {
         return main
     }()
 
+    let orangeBox1: UIView = {
+        let orange = UIView(frame: CGRect.zero)
+        orange.translatesAutoresizingMaskIntoConstraints = false
+        orange.backgroundColor = .orange
+        return orange
+    }()
+
+    let orangeBox2: UIView = {
+        let orange = UIView(frame: CGRect.zero)
+        orange.translatesAutoresizingMaskIntoConstraints = false
+        orange.backgroundColor = .orange
+        return orange
+    }()
+
+    var orangeBoxStackView: UIStackView!
+
+    let purpleBox: UIView = {
+       let purple = UIView(frame: CGRect.zero)
+        purple.translatesAutoresizingMaskIntoConstraints = false
+        purple.backgroundColor = .purple
+        return purple
+    }()
+
+    let blueBox1: UIView = {
+        let blue = UIView(frame: CGRect.zero)
+        blue.translatesAutoresizingMaskIntoConstraints = false
+        blue.backgroundColor = .blue
+        return blue
+    }()
+
+    let blueBox2: UIView = {
+        let blue = UIView(frame: CGRect.zero)
+        blue.translatesAutoresizingMaskIntoConstraints = false
+        blue.backgroundColor = .blue
+        return blue
+    }()
+
+    let blueBox3: UIView = {
+        let blue = UIView(frame: CGRect.zero)
+        blue.translatesAutoresizingMaskIntoConstraints = false
+        blue.backgroundColor = .blue
+        return blue
+    }()
+
+    var blueBoxStackView: UIStackView!
+
     let squareButton: UIButton = {
         let butt = UIButton(type: .system)
         butt.setTitle("Square", for: .normal)
@@ -76,6 +122,56 @@ class ViewController: UIViewController {
             buttStackView.centerXAnchor.constraint(equalTo: view.centerXAnchor),
             buttStackView.heightAnchor.constraint(equalToConstant: 50),
             buttStackView.widthAnchor.constraint(equalTo: view.widthAnchor)
+            ])
+
+        orangeBoxStackView = UIStackView(arrangedSubviews: [orangeBox1, orangeBox2])
+        orangeBoxStackView.translatesAutoresizingMaskIntoConstraints = false
+        orangeBoxStackView.axis = .horizontal
+        orangeBoxStackView.spacing = 10
+        orangeBoxStackView.isLayoutMarginsRelativeArrangement = true
+        orangeBoxStackView.layoutMargins = UIEdgeInsets(top: 10, left: 10, bottom: 10, right: 10)
+        mainView.addSubview(orangeBoxStackView)
+
+        let orangeBoxStackViewBackground = UIView(frame: CGRect.zero)
+        orangeBoxStackViewBackground.backgroundColor = .red
+        orangeBoxStackViewBackground.autoresizingMask = [.flexibleWidth, .flexibleHeight]
+        orangeBoxStackView.insertSubview(orangeBoxStackViewBackground, at: 0)
+
+        NSLayoutConstraint.activate([
+            orangeBoxStackView.topAnchor.constraint(equalTo: mainView.topAnchor, constant: 20),
+            orangeBoxStackView.trailingAnchor.constraint(equalTo: mainView.trailingAnchor, constant: -20),
+            orangeBox1.heightAnchor.constraint(equalToConstant: 30),
+            orangeBox1.widthAnchor.constraint(equalToConstant: 70),
+            orangeBox2.heightAnchor.constraint(equalTo: orangeBox1.heightAnchor),
+            orangeBox2.widthAnchor.constraint(equalToConstant: 50),
+            ])
+
+        NSLayoutConstraint.activate([
+            purpleBox.bottomAnchor.constraint(equalTo: mainView.bottomAnchor, constant: -20),
+            purpleBox.trailingAnchor.constraint(equalTo: mainView.trailingAnchor, constant: -20),
+            purpleBox.heightAnchor.constraint(equalToConstant: 50),
+            purpleBox.widthAnchor.constraint(equalTo: mainView.widthAnchor, multiplier: 0.6),
+            ])
+        mainView.addSubview(purpleBox)
+
+        blueBoxStackView = UIStackView(arrangedSubviews: [blueBox1, blueBox2, blueBox3])
+        blueBoxStackView.translatesAutoresizingMaskIntoConstraints = false
+        blueBoxStackView.axis = .vertical
+        blueBoxStackView.alignment = .center
+        blueBoxStackView.distribution = .equalSpacing
+        mainView.addSubview(blueBoxStackView)
+
+        NSLayoutConstraint.activate([
+            blueBoxStackView.heightAnchor.constraint(equalTo: mainView.heightAnchor, multiplier: 0.7),
+            blueBoxStackView.widthAnchor.constraint(equalToConstant: 50),
+            blueBoxStackView.centerXAnchor.constraint(equalTo: mainView.centerXAnchor),
+            blueBoxStackView.centerYAnchor.constraint(equalTo: mainView.centerYAnchor),
+            blueBox1.heightAnchor.constraint(equalTo: blueBoxStackView.widthAnchor),
+            blueBox1.widthAnchor.constraint(equalTo: blueBox1.heightAnchor),
+            blueBox2.heightAnchor.constraint(equalTo: blueBox1.heightAnchor),
+            blueBox2.widthAnchor.constraint(equalTo: blueBox2.heightAnchor),
+            blueBox3.heightAnchor.constraint(equalTo: blueBox1.heightAnchor),
+            blueBox3.widthAnchor.constraint(equalTo: blueBox3.heightAnchor),
             ])
     }
 
