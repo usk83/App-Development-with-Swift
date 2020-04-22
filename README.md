@@ -1,2 +1,3 @@
 # CICCC-iOS-Labs
-WMAD 403 iOS Development in CICCC
+
+Labs of WMAD 403 iOS Development in CICCC 
