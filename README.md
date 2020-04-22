@@ -5,3 +5,7 @@
 ## Labs
 
 - [1.8 Interface Builder Basics](./Labs/InterfaceBuilderBasics)
+
+## Guided Project
+
+- [Unit 1 - Light](./GuidedProjects/Light)
