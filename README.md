@@ -1,11 +1,7 @@
-# CICCC-iOS-Labs
+# App Development with Swift
 
-Labs of WMAD 403 iOS Development in CICCC
-
-## TextBook
-
-[App Development with Swift](https://books.apple.com/ca/book/app-development-with-swift/id1465002990)
+[Apple Education "App Development with Swift". Apple Inc. - Education, 2019](https://books.apple.com/jp/book/app-development-with-swift/id1465002990)
 
 ## Labs
 
-- [1.8 Interface Builder Basics](./InterfaceBuilderBasics)
+- [1.8 Interface Builder Basics](./Labs/InterfaceBuilderBasics)
