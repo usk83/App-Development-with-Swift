@@ -9,3 +9,4 @@
 ## Guided Project
 
 - [Unit 1 - Light](./GuidedProjects/Light)
+- [Unit 2 - Apple Pie](./GuidedProjects/ApplePie)
