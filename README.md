@@ -10,3 +10,4 @@
 
 - [Unit 1 - Light](./GuidedProjects/Light)
 - [Unit 2 - Apple Pie](./GuidedProjects/ApplePie)
+- [Unit 3 - Personality Quiz](./GuidedProjects/PersonalityQuiz)
